@@ -3,11 +3,15 @@
 // Function to change the background color when a button is clicked
 function changeBackgroundColor() {
   // Implement the function to change background color
+  button.addEventListener('click:', changeBackgroundColor)
+  document.getElementById('changeColorButton')
 }
 
 // Function to reset the background color when the body is double-clicked
 function resetBackgroundColor() {
   // Implement the function to reset background color
+  button.addEventListener('click:',resetBackgroundColor)
+  document.getElementById('resetColorButton')
 }
 
 // Capture Keyboard Input
